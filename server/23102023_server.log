@@ -1,0 +1,11 @@
+
+1 [23.10.2023 22:42:49] [SERVER] [main] [ru.netology.application.Server] Выполняется запуск cервера...
+2 [23.10.2023 22:42:49] [DEBUG] [main] [ru.netology.application.Server] Инициализация параметров Сервера
+3 [23.10.2023 22:42:49] [DEBUG] [main] [ru.netology.application.Server] Загрузка настроек
+4 [23.10.2023 22:42:49] [DEBUG] [main] [ru.netology.application.Server] IP сервера не указан. Установим IP по умолчанию 127.0.0.1
+5 [23.10.2023 22:42:49] [DEBUG] [main] [ru.netology.application.Server] Сервер запущен. Инциализация прошла успешно
+1 [23.10.2023 22:43:10] [SERVER] [main] [ru.netology.application.Server] Выполняется запуск cервера...
+2 [23.10.2023 22:43:10] [DEBUG] [main] [ru.netology.application.Server] Инициализация параметров Сервера
+3 [23.10.2023 22:43:10] [DEBUG] [main] [ru.netology.application.Server] Загрузка настроек
+4 [23.10.2023 22:43:10] [DEBUG] [main] [ru.netology.application.Server] IP сервера не указан. Установим IP по умолчанию 127.0.0.1
+5 [23.10.2023 22:43:10] [DEBUG] [main] [ru.netology.application.Server] Сервер запущен. Инциализация прошла успешно

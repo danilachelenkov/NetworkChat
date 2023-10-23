@@ -1,0 +1,85 @@
+
+1 [23.10.2023 22:43:56] [DEBUG] [main] [ru.netology.application.Client] Старт инициализации параметро клиента
+2 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] Выполняется загрузка параметров настройки клиента для его инициализации
+3 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] ФАйл с настройками загружен. Выполнется чтение настроек
+4 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] Параметры инициализированны [Client settings: Server IP = 127.0.0.1 Server Port = 8085]
+5 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] Клиент запущен
+6 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] Выполняется создание Socket  и подключение к Серверу по инициализированным настройкам
+7 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] Подключение к Серверу выполнено успешно
+8 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.Client] Запускается поток для обработки получения ответных сообщений от Сервера
+9 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Выподключились к сетевому чату. Для того, чтобы начать общаться необходимо пройти регистрацию на сервере: введите свой <Login>, а после команду /reg. Например: <Login>/reg', datetime=Mon Oct 23 22:43:57 MSK 2023, uniqSessionId=8085, messageType=TO_USER}}
+10 [23.10.2023 22:44:01] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Привет} на Сервер
+11 [23.10.2023 22:44:01] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Привет}
+12 [23.10.2023 22:44:01] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Привет} успешно отправлено
+13 [23.10.2023 22:44:01] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Вы подключились к сетевому чату.  Для того, чтобы начать общаться, необходимо пройти регистрацию на сервере: введите свой <Login>, а после команду /reg. Например: <Login>/reg', datetime=Mon Oct 23 22:44:01 MSK 2023, uniqSessionId=52097, messageType=TO_USER}}
+14 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Tomas/reg} на Сервер
+15 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Tomas/reg}
+16 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Tomas/reg} успешно отправлено
+17 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.Client] Отправлено техническое сообщение для регистрации на сервере
+18 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit', datetime=Mon Oct 23 22:44:08 MSK 2023, uniqSessionId=52097, messageType=TO_USER}}
+19 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Првиет всем} на Сервер
+20 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Првиет всем}
+21 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Првиет всем} успешно отправлено
+22 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Уважаемый пользователь [Tomas] на данный момент в чате вы в одиночесте', datetime=Mon Oct 23 22:44:12 MSK 2023, uniqSessionId=52097, messageType=TO_USER}}
+1 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Старт инициализации параметро клиента
+2 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Выполняется загрузка параметров настройки клиента для его инициализации
+3 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] ФАйл с настройками загружен. Выполнется чтение настроек
+4 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Параметры инициализированны [Client settings: Server IP = 127.0.0.1 Server Port = 8085]
+5 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Клиент запущен
+6 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Выполняется создание Socket  и подключение к Серверу по инициализированным настройкам
+7 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Подключение к Серверу выполнено успешно
+8 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.Client] Запускается поток для обработки получения ответных сообщений от Сервера
+9 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Выподключились к сетевому чату. Для того, чтобы начать общаться необходимо пройти регистрацию на сервере: введите свой <Login>, а после команду /reg. Например: <Login>/reg', datetime=Mon Oct 23 22:44:26 MSK 2023, uniqSessionId=8085, messageType=TO_USER}}
+10 [23.10.2023 22:44:30] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Привет} на Сервер
+11 [23.10.2023 22:44:30] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Привет}
+12 [23.10.2023 22:44:30] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Привет} успешно отправлено
+13 [23.10.2023 22:44:30] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Вы подключились к сетевому чату.  Для того, чтобы начать общаться, необходимо пройти регистрацию на сервере: введите свой <Login>, а после команду /reg. Например: <Login>/reg', datetime=Mon Oct 23 22:44:30 MSK 2023, uniqSessionId=52114, messageType=TO_USER}}
+14 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Marta/reg} на Сервер
+15 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Marta/reg}
+16 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Marta/reg} успешно отправлено
+17 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.Client] Отправлено техническое сообщение для регистрации на сервере
+18 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit', datetime=Mon Oct 23 22:44:35 MSK 2023, uniqSessionId=52114, messageType=TO_USER}}
+23 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit', datetime=Mon Oct 23 22:44:35 MSK 2023, uniqSessionId=52114, messageType=TO_USER}}
+19 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Привет всем ребята} на Сервер
+20 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Привет всем ребята}
+21 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Привет всем ребята} успешно отправлено
+24 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Marta', message='Привет всем ребята', datetime=Mon Oct 23 22:44:44 MSK 2023, uniqSessionId=52114, messageType=OTHER_USERS}}
+25 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Привет} на Сервер
+26 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Привет}
+27 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Привет} успешно отправлено
+22 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Tomas', message='Привет', datetime=Mon Oct 23 22:45:17 MSK 2023, uniqSessionId=52097, messageType=OTHER_USERS}}
+23 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Как дела?} на Сервер
+24 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Как дела?}
+25 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Как дела?} успешно отправлено
+28 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Marta', message='Как дела?', datetime=Mon Oct 23 22:45:25 MSK 2023, uniqSessionId=52114, messageType=OTHER_USERS}}
+29 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Отлично, а у тебя?} на Сервер
+30 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Отлично, а у тебя?}
+31 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Отлично, а у тебя?} успешно отправлено
+26 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Tomas', message='Отлично, а у тебя?', datetime=Mon Oct 23 22:45:35 MSK 2023, uniqSessionId=52097, messageType=OTHER_USERS}}
+27 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Тоже ничего} на Сервер
+28 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Тоже ничего}
+29 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Тоже ничего} успешно отправлено
+32 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Marta', message='Тоже ничего', datetime=Mon Oct 23 22:45:59 MSK 2023, uniqSessionId=52114, messageType=OTHER_USERS}}
+30 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Чем занимаешься?} на Сервер
+31 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Чем занимаешься?}
+32 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Чем занимаешься?} успешно отправлено
+33 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Marta', message='Чем занимаешься?', datetime=Mon Oct 23 22:46:04 MSK 2023, uniqSessionId=52114, messageType=OTHER_USERS}}
+34 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Пиво пью, а ты?} на Сервер
+35 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Пиво пью, а ты?}
+36 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Пиво пью, а ты?} успешно отправлено
+33 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Tomas', message='Пиво пью, а ты?', datetime=Mon Oct 23 22:46:17 MSK 2023, uniqSessionId=52097, messageType=OTHER_USERS}}
+34 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Пошли гулять? Брось пиво} на Сервер
+35 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Пошли гулять? Брось пиво}
+36 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Пошли гулять? Брось пиво} успешно отправлено
+37 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='Marta', message='Пошли гулять? Брось пиво', datetime=Mon Oct 23 22:46:29 MSK 2023, uniqSessionId=52114, messageType=OTHER_USERS}}
+37 [23.10.2023 22:46:51] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Пользователь [Tomas] покинул чат', datetime=Mon Oct 23 22:46:51 MSK 2023, uniqSessionId=52097, messageType=OTHER_USERS}}
+38 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {Вот блин} на Сервер
+39 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {Вот блин}
+40 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {Вот блин} успешно отправлено
+41 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.ClientReceiveHandler] Получено сообщение от Сервера: {Message{login='SERVER', message='Уважаемый пользователь [Marta] на данный момент в чате вы в одиночесте', datetime=Mon Oct 23 22:47:07 MSK 2023, uniqSessionId=52114, messageType=TO_USER}}
+42 [23.10.2023 22:47:14] [DEBUG] [main] [ru.netology.application.Client] Выполняется попытка отправки пользовательского сообщенияс текстом {/exit} на Сервер
+43 [23.10.2023 22:47:14] [DEBUG] [main] [ru.netology.application.Client] Создание объекта сообщения Message. Текст сообщения: {/exit}
+44 [23.10.2023 22:47:14] [DEBUG] [main] [ru.netology.application.Client] Сообщение с текстом {/exit} успешно отправлено
+45 [23.10.2023 22:47:14] [WARN] [main] [ru.netology.application.Client] Отправлено техническое сообщение для выхода из чата
+46 [23.10.2023 22:47:14] [ERROR] [main] [ru.netology.application.ClientReceiveHandler] Ошибка при получении сообщений:
+Socket closed

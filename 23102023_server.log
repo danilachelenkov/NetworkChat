@@ -1,0 +1,140 @@
+
+1 [23.10.2023 22:43:42] [SERVER] [main] [ru.netology.application.Server] Выполняется запуск cервера...
+2 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.Server] Инициализация параметров Сервера
+3 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.Server] Загрузка настроек
+4 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.Server] IP сервера не указан. Установим IP по умолчанию 127.0.0.1
+5 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.Server] Сервер запущен. Инциализация прошла успешно
+6 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.Server] Запуск потока очереди ожидания подключения и наполнения очереди сообщений от пользователе чата
+7 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.Server] Запуск потока обработки очереди сообщений
+8 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Запущен поток ожидания новых подключений
+9 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Выполняется инициализация SocketServer
+10 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Запущен поток обработки очереди сообщений
+11 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Инициализация SocketServer прошла успешно. Максимальное количество возможных подключений к серверу: 10
+12 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Запускаем беспонечный цикл ожидания подключений. Выполняем его пока SocketServer не закрыт.
+13 [23.10.2023 22:43:42] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Поток находится в ожидании подключения нового клиента...
+14 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Обнаружено новое подключение с параметрами SocketPort: 52097
+15 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Отправлено сообщение с инструкциями по регистрации пользователю
+16 [23.10.2023 22:43:57] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Класс инициализирован с Socket: 52097
+17 [23.10.2023 22:43:57] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Поток находится в ожидании подключения нового клиента...
+18 [23.10.2023 22:43:57] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Запущен поток обработки Socket= 52097
+19 [23.10.2023 22:43:57] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+20 [23.10.2023 22:44:01] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Сервер получил сообщение: Привет
+21 [23.10.2023 22:44:01] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Пользователь отправивший сообщение не является пользователем чата
+22 [23.10.2023 22:44:01] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Отправка уведомления клиенту что он не зарегистрирован в списке пользователей чата 52097
+23 [23.10.2023 22:44:01] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+24 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Сервер получил сообщение: Tomas/reg
+25 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Пользователь отправивший сообщение не является пользователем чата
+26 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] От пользователя получено сообщение о регистрации: Tomas/reg
+27 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Инициализирован пользователь:  Login=Tomas SocketPort=52097 DateTimeRegistration=Mon Oct 23 22:44:08 MSK 2023
+28 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Всего пользователей в списке: 1
+29 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Логин: Tomas добавлен в список пользователей чата
+30 [23.10.2023 22:44:08] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+31 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [SERVER] с текстом: {Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit}
+32 [23.10.2023 22:44:08] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Отправка серверного сообщения [Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit] Пользователю [Tomas]
+33 [23.10.2023 22:44:12] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Сервер получил сообщение: Првиет всем
+34 [23.10.2023 22:44:12] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Пользователю [Tomas] отправлено сообщения одиночества.
+35 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [SERVER] с текстом: {Уважаемый пользователь [Tomas] на данный момент в чате вы в одиночесте}
+36 [23.10.2023 22:44:12] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Добавлено сообщение в очередь для рассылки всем участникам чата
+37 [23.10.2023 22:44:12] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Размер очереди: 1
+38 [23.10.2023 22:44:12] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+39 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Отправка серверного сообщения [Уважаемый пользователь [Tomas] на данный момент в чате вы в одиночесте] Пользователю [Tomas]
+40 [23.10.2023 22:44:12] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Tomas] с текстом: {Првиет всем}
+41 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Обнаружено новое подключение с параметрами SocketPort: 52114
+42 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Отправлено сообщение с инструкциями по регистрации пользователю
+43 [23.10.2023 22:44:26] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Класс инициализирован с Socket: 52114
+44 [23.10.2023 22:44:26] [DEBUG] [main] [ru.netology.application.ServerWaitClientHandler] Поток находится в ожидании подключения нового клиента...
+45 [23.10.2023 22:44:26] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Запущен поток обработки Socket= 52114
+46 [23.10.2023 22:44:26] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+47 [23.10.2023 22:44:30] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Привет
+48 [23.10.2023 22:44:30] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Пользователь отправивший сообщение не является пользователем чата
+49 [23.10.2023 22:44:30] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Отправка уведомления клиенту что он не зарегистрирован в списке пользователей чата 52114
+50 [23.10.2023 22:44:30] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+51 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Marta/reg
+52 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Пользователь отправивший сообщение не является пользователем чата
+53 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] От пользователя получено сообщение о регистрации: Marta/reg
+54 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Инициализирован пользователь:  Login=Marta SocketPort=52114 DateTimeRegistration=Mon Oct 23 22:44:35 MSK 2023
+55 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Всего пользователей в списке: 2
+56 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Логин: Marta добавлен в список пользователей чата
+57 [23.10.2023 22:44:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+58 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [SERVER] с текстом: {Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit}
+59 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Отправка серверного сообщения [Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit] Пользователю [Marta]
+60 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Tomas]
+61 [23.10.2023 22:44:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Tomas] отправлено широковещательного сообшение [Вы добавлены как пользователь в сетевой чат желаем приятного общения! Если захотите покинуть чат введите команду /exit]
+62 [23.10.2023 22:44:44] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Привет всем ребята
+63 [23.10.2023 22:44:44] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Добавлено сообщение в очередь для рассылки всем участникам чата
+64 [23.10.2023 22:44:44] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Размер очереди: 0
+65 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Marta] с текстом: {Привет всем ребята}
+66 [23.10.2023 22:44:44] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+67 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Tomas]
+68 [23.10.2023 22:44:44] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Tomas] отправлено широковещательного сообшение [Привет всем ребята]
+69 [23.10.2023 22:45:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Сервер получил сообщение: Привет
+70 [23.10.2023 22:45:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Добавлено сообщение в очередь для рассылки всем участникам чата
+71 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Tomas] с текстом: {Привет}
+72 [23.10.2023 22:45:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Размер очереди: 0
+73 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Marta]
+74 [23.10.2023 22:45:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+75 [23.10.2023 22:45:17] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Marta] отправлено широковещательного сообшение [Привет]
+76 [23.10.2023 22:45:25] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Как дела?
+77 [23.10.2023 22:45:25] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Добавлено сообщение в очередь для рассылки всем участникам чата
+78 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Marta] с текстом: {Как дела?}
+79 [23.10.2023 22:45:25] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Размер очереди: 0
+80 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Tomas]
+81 [23.10.2023 22:45:25] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+82 [23.10.2023 22:45:25] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Tomas] отправлено широковещательного сообшение [Как дела?]
+83 [23.10.2023 22:45:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Сервер получил сообщение: Отлично, а у тебя?
+84 [23.10.2023 22:45:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Добавлено сообщение в очередь для рассылки всем участникам чата
+85 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Tomas] с текстом: {Отлично, а у тебя?}
+86 [23.10.2023 22:45:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Размер очереди: 0
+87 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Marta]
+88 [23.10.2023 22:45:35] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+89 [23.10.2023 22:45:35] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Marta] отправлено широковещательного сообшение [Отлично, а у тебя?]
+90 [23.10.2023 22:45:59] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Тоже ничего
+91 [23.10.2023 22:45:59] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Добавлено сообщение в очередь для рассылки всем участникам чата
+92 [23.10.2023 22:45:59] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Размер очереди: 0
+93 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Marta] с текстом: {Тоже ничего}
+94 [23.10.2023 22:45:59] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+95 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Tomas]
+96 [23.10.2023 22:45:59] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Tomas] отправлено широковещательного сообшение [Тоже ничего]
+97 [23.10.2023 22:46:04] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Чем занимаешься?
+98 [23.10.2023 22:46:04] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Добавлено сообщение в очередь для рассылки всем участникам чата
+99 [23.10.2023 22:46:04] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Размер очереди: 0
+100 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Marta] с текстом: {Чем занимаешься?}
+101 [23.10.2023 22:46:04] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+102 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Tomas]
+103 [23.10.2023 22:46:04] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Tomas] отправлено широковещательного сообшение [Чем занимаешься?]
+104 [23.10.2023 22:46:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Сервер получил сообщение: Пиво пью, а ты?
+105 [23.10.2023 22:46:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Добавлено сообщение в очередь для рассылки всем участникам чата
+106 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Tomas] с текстом: {Пиво пью, а ты?}
+107 [23.10.2023 22:46:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Размер очереди: 0
+108 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Marta]
+109 [23.10.2023 22:46:17] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket активен
+110 [23.10.2023 22:46:17] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Marta] отправлено широковещательного сообшение [Пиво пью, а ты?]
+111 [23.10.2023 22:46:29] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Пошли гулять? Брось пиво
+112 [23.10.2023 22:46:29] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Добавлено сообщение в очередь для рассылки всем участникам чата
+113 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Marta] с текстом: {Пошли гулять? Брось пиво}
+114 [23.10.2023 22:46:29] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Размер очереди: 0
+115 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Tomas]
+116 [23.10.2023 22:46:29] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+117 [23.10.2023 22:46:29] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Tomas] отправлено широковещательного сообшение [Пошли гулять? Брось пиво]
+118 [23.10.2023 22:46:51] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [SERVER] с текстом: {Пользователь [Tomas] покинул чат}
+119 [23.10.2023 22:46:51] [ERROR] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Ошибка:
+Connection reset
+120 [23.10.2023 22:46:51] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Выполняется отправка широковещательного сообщения для Пользователя [Marta]
+121 [23.10.2023 22:46:51] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Пользователь сокета [52097] покинул сервер по неизвестным причинам. Socket утерян
+122 [23.10.2023 22:46:51] [WARN] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Пользователей осталось в чате {1}
+123 [23.10.2023 22:46:51] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Socket клиента закрыт. Завершаем текущий поток обработки.
+124 [23.10.2023 22:46:51] [WARN] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52097] Поток завершен.
+125 [23.10.2023 22:46:51] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Пользователю [Marta] отправлено широковещательного сообшение [Пользователь [Tomas] покинул чат]
+126 [23.10.2023 22:47:07] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: Вот блин
+127 [23.10.2023 22:47:07] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Пользователю [Marta] отправлено сообщения одиночества.
+128 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [SERVER] с текстом: {Уважаемый пользователь [Marta] на данный момент в чате вы в одиночесте}
+129 [23.10.2023 22:47:07] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Добавлено сообщение в очередь для рассылки всем участникам чата
+130 [23.10.2023 22:47:07] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Размер очереди: 1
+131 [23.10.2023 22:47:07] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Socket активен
+132 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Отправка серверного сообщения [Уважаемый пользователь [Marta] на данный момент в чате вы в одиночесте] Пользователю [Marta]
+133 [23.10.2023 22:47:07] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [Marta] с текстом: {Вот блин}
+134 [23.10.2023 22:47:14] [DEBUG] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Сервер получил сообщение: /exit
+135 [23.10.2023 22:47:14] [WARN] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Пользователь отправил команду для выхода из чата
+136 [23.10.2023 22:47:14] [WARN] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Пользователей осталось в чате {0}
+137 [23.10.2023 22:47:14] [DEBUG] [main] [ru.netology.application.ServerSenderMessageHandler] Получено новое сообщение от [SERVER] с текстом: {Пользователь [Marta] покинул чат}
+138 [23.10.2023 22:47:14] [WARN] [pool-2-thread-1] [ru.netology.application.ServerReceiverMessageHandler] [Socket=52114] Поток завершился
