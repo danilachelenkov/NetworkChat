@@ -79,8 +79,9 @@ public class Client {
                     if (line.contains("/exit")) {
                         logger.warn(prepare("Отправлено техническое сообщение для выхода из чата"));
                         printer.print("Выход из чата выполнен. Клиент завершает работу");
+                        
                         socket.close();
-                        return;
+                        executorReadService.shutdown();
                     }
                 }
             }
